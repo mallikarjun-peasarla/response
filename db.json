@@ -4,6 +4,14 @@
     { "id": 2, "title": "Post 2" },
     { "id": 3, "title": "Post 3" }
   ],
+  "predict": [
+   {
+    "nodeId": "5dba1525-44a6-45ed-a42e-4a155a3f0539",
+    "metaData": "medicaidApplicable",
+    "prediction": "yes",
+    "score": 0.97
+   }
+  ],
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 },
     { "id": 2, "body": "some comment", "postId": 1 }
