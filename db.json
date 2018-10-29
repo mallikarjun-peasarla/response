@@ -5,13 +5,31 @@
     { "id": 3, "title": "Post 3" }
   ],
   "predict": [
-   {
-    "nodeId": "5dba1525-44a6-45ed-a42e-4a155a3f0539",
+  {
+    "nodeId":"5dba1525-44a6-45ed-a42e-4a155a3f0539",
     "metaData": "medicaidApplicable",
     "prediction": "yes",
     "score": 0.97
-   }
-  ],
+  },
+    {
+    "nodeId":"5dba1525-44a6-45ed-a42e-4a155a3f0539",
+    "metaData": "documentType",
+    "prediction": "fee schedule",
+    "score": 0.81
+  },
+  {
+    "nodeId":"5dba1525-44a6-45ed-a42e-4a155a3f0539",
+    "metaData": "effectiveDate",
+    "prediction": "04-23-2018",
+    "score": 0.9
+  },
+  {
+    "nodeId":"5dba1525-44a6-45ed-a42e-4a155a3f0539",
+    "metaData": "effectiveDate",
+    "prediction": "05-23-2018",
+    "score": 0.5
+  }
+],
   "comments": [
    {
     "nodeId": "5dba1525-44a6-45ed-a42e-4a155a3f0539",
